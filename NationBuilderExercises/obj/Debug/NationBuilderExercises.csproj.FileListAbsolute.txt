@@ -1,0 +1,10 @@
+C:\Users\rzraik\Downloads\NationBuilderExercises\NationBuilderExercises\bin\Debug\NationBuilderExercises.exe.config
+C:\Users\rzraik\Downloads\NationBuilderExercises\NationBuilderExercises\bin\Debug\NationBuilderExercises.exe
+C:\Users\rzraik\Downloads\NationBuilderExercises\NationBuilderExercises\bin\Debug\NationBuilderExercises.pdb
+C:\Users\rzraik\Downloads\NationBuilderExercises\NationBuilderExercises\bin\Debug\NationBuilder.dll
+C:\Users\rzraik\Downloads\NationBuilderExercises\NationBuilderExercises\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rzraik\Downloads\NationBuilderExercises\NationBuilderExercises\bin\Debug\NationBuilder.pdb
+C:\Users\rzraik\Downloads\NationBuilderExercises\NationBuilderExercises\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rzraik\Downloads\NationBuilderExercises\NationBuilderExercises\obj\Debug\NationBuilderExercises.csprojResolveAssemblyReference.cache
+C:\Users\rzraik\Downloads\NationBuilderExercises\NationBuilderExercises\obj\Debug\NationBuilderExercises.exe
+C:\Users\rzraik\Downloads\NationBuilderExercises\NationBuilderExercises\obj\Debug\NationBuilderExercises.pdb

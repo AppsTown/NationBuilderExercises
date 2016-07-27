@@ -1,0 +1,9 @@
+C:\Users\rzraik\Downloads\NationBuilderExercises\NationBuilder\obj\Debug\NationBuilder.Properties.Resources.resources
+C:\Users\rzraik\Downloads\NationBuilderExercises\NationBuilder\obj\Debug\NationBuilder.csproj.GenerateResource.Cache
+C:\Users\rzraik\Downloads\NationBuilderExercises\NationBuilder\bin\Debug\NationBuilder.dll.config
+C:\Users\rzraik\Downloads\NationBuilderExercises\NationBuilder\bin\Debug\NationBuilder.dll
+C:\Users\rzraik\Downloads\NationBuilderExercises\NationBuilder\bin\Debug\NationBuilder.pdb
+C:\Users\rzraik\Downloads\NationBuilderExercises\NationBuilder\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rzraik\Downloads\NationBuilderExercises\NationBuilder\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rzraik\Downloads\NationBuilderExercises\NationBuilder\obj\Debug\NationBuilder.dll
+C:\Users\rzraik\Downloads\NationBuilderExercises\NationBuilder\obj\Debug\NationBuilder.pdb
