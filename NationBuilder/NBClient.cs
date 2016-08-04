@@ -14,14 +14,17 @@ namespace NationBuilder
     {
         private HttpClient _client;
         private string _slug;
+        private string _site_slug;
         private string _accessToken;
         private string _endpoint { get { return _endpointCore + "api/v1/"; } set { _endpoint = value; } }
         private string _endpointCore { get { return string.Format("https://{0}.nationbuilder.com/", _slug); } set { _endpointCore = value; } }
+        public string SiteSlug { get { return _site_slug; } set { _site_slug = value; } }
 
-        public NBClient(string slug, string accessToken)
+        public NBClient(string slug, string accessToken, string siteSlug = "")
         {
             _slug = slug.ToLower();
             _accessToken = accessToken;
+            _site_slug = siteSlug.ToLower();
 
             _client = new HttpClient();
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
@@ -31,7 +34,7 @@ namespace NationBuilder
         public async Task<List<T>> GetAllRecords<T>() where T : NBObject
         {
             var NBObject = (NBObject)Activator.CreateInstance(typeof(T));
-            var url = _endpoint + NBObject.GetAllEndpoint(_slug);
+            var url = _endpoint + NBObject.GetAllEndpoint(_site_slug);
 
             // Get all records
             var list = new List<T>();
@@ -52,7 +55,7 @@ namespace NationBuilder
         public async Task<T> CreateRecordAsync<T, T2>(T2 recordWrapper) where T : NBObject where T2 : NBWrapper
         {
             var NBObject = (NBObject)Activator.CreateInstance(typeof(T));
-            var url = _endpoint + NBObject.CreateEndpoint(_slug);
+            var url = _endpoint + NBObject.CreateEndpoint(_site_slug);
             var content = new StringContent(JsonConvert.SerializeObject(recordWrapper), Encoding.UTF8, "application/json");
 
             // Create the record
@@ -69,7 +72,7 @@ namespace NationBuilder
             recordWrapper.Record.Id = id;
 
             var NBObject = (NBObject)Activator.CreateInstance(typeof(T));
-            var url = _endpoint + NBObject.UpdateEndpoint(_slug) + id;
+            var url = _endpoint + NBObject.UpdateEndpoint(_site_slug) + id;
             var content = new StringContent(JsonConvert.SerializeObject(recordWrapper, new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore }), Encoding.UTF8, "application/json");
 
             // Update the record
@@ -81,7 +84,7 @@ namespace NationBuilder
         public async Task DeleteRecordAsync<T>(long id) where T : NBObject
         {
             var NBObject = (NBObject)Activator.CreateInstance(typeof(T));
-            var url = _endpoint + NBObject.DeleteEndpoint(_slug) + id;
+            var url = _endpoint + NBObject.DeleteEndpoint(_site_slug) + id;
 
             // Delete the record
             var response = await _client.DeleteAsync(url);

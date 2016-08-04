@@ -7,12 +7,12 @@ namespace NationBuilder.Models
         [JsonProperty("id")]
         public long Id { get; set; }
 
-        public abstract string GetAllEndpoint(string slug);
+        public abstract string GetAllEndpoint(string siteSlug);
 
-        public abstract string CreateEndpoint(string slug);
+        public abstract string CreateEndpoint(string siteSlug);
 
-        public abstract string UpdateEndpoint(string slug);
+        public abstract string UpdateEndpoint(string siteSlug);
 
-        public abstract string DeleteEndpoint(string slug);
+        public abstract string DeleteEndpoint(string siteSlug);
     }
 }

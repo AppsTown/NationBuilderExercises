@@ -23,7 +23,6 @@ namespace NationBuilderExercises
             {
                 Console.WriteLine(ex.Message);
             }
-
         }
 
         private static async Task TestPersons()
@@ -50,8 +49,9 @@ namespace NationBuilderExercises
 
         private static async Task TestEvents()
         {
-            var client = new NBClient(_slug, _accessToken);
-            
+            var _site_slug = "rzraik";
+            var client = new NBClient(_slug, _accessToken, _site_slug);
+
             // Get all events
             //var NPEvents = await client.GetAllRecords<NBEvent>();
 

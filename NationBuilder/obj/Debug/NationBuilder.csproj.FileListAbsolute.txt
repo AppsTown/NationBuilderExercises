@@ -7,3 +7,13 @@ C:\Users\rzraik\Downloads\NationBuilderExercises\NationBuilder\bin\Debug\Newtons
 C:\Users\rzraik\Downloads\NationBuilderExercises\NationBuilder\bin\Debug\Newtonsoft.Json.xml
 C:\Users\rzraik\Downloads\NationBuilderExercises\NationBuilder\obj\Debug\NationBuilder.dll
 C:\Users\rzraik\Downloads\NationBuilderExercises\NationBuilder\obj\Debug\NationBuilder.pdb
+C:\Users\rzraik\OneDrive\Projects\C#\NationBuilderExercises\NationBuilder\bin\Debug\NationBuilder.dll.config
+C:\Users\rzraik\OneDrive\Projects\C#\NationBuilderExercises\NationBuilder\bin\Debug\NationBuilder.dll
+C:\Users\rzraik\OneDrive\Projects\C#\NationBuilderExercises\NationBuilder\bin\Debug\NationBuilder.pdb
+C:\Users\rzraik\OneDrive\Projects\C#\NationBuilderExercises\NationBuilder\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rzraik\OneDrive\Projects\C#\NationBuilderExercises\NationBuilder\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rzraik\OneDrive\Projects\C#\NationBuilderExercises\NationBuilder\obj\Debug\NationBuilder.csprojResolveAssemblyReference.cache
+C:\Users\rzraik\OneDrive\Projects\C#\NationBuilderExercises\NationBuilder\obj\Debug\NationBuilder.Properties.Resources.resources
+C:\Users\rzraik\OneDrive\Projects\C#\NationBuilderExercises\NationBuilder\obj\Debug\NationBuilder.csproj.GenerateResource.Cache
+C:\Users\rzraik\OneDrive\Projects\C#\NationBuilderExercises\NationBuilder\obj\Debug\NationBuilder.dll
+C:\Users\rzraik\OneDrive\Projects\C#\NationBuilderExercises\NationBuilder\obj\Debug\NationBuilder.pdb

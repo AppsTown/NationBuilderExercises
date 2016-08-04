@@ -19,22 +19,22 @@ namespace NationBuilder.Models
         [JsonProperty("mobile")]
         public string Mobile { get; set; }
 
-        public override string GetAllEndpoint(string slug)
+        public override string GetAllEndpoint(string siteSlug)
         {
             return "people/";
         }
 
-        public override string CreateEndpoint(string slug)
+        public override string CreateEndpoint(string siteSlug)
         {
             return "people/";
         }
 
-        public override string UpdateEndpoint(string slug)
+        public override string UpdateEndpoint(string siteSlug)
         {
             return "people/";
         }
 
-        public override string DeleteEndpoint(string slug)
+        public override string DeleteEndpoint(string siteSlug)
         {
             return "people/";
         }
